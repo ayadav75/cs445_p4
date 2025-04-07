@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+    <!-- Hotel 1: Example from Figure 1 -->
+    <Hotel _Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address _NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 2: The Plaza Hotel -->
+    <Hotel _Rating="5.0">
+        <Name>The Plaza Hotel</Name>
+        <Phone>+1 212-759-3000</Phone>
+        <Address _NearestAirport="LaGuardia Airport (LGA)">
+            <Number>768</Number>
+            <Street>5th Avenue</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 3: Burj Al Arab Jumeirah -->
+    <Hotel _Rating="5.0">
+        <Name>Burj Al Arab Jumeirah</Name>
+        <Phone>+971 4 301 7777</Phone>
+        <Phone>800 467 433</Phone>
+        <Address _NearestAirport="Dubai International Airport (DXB)">
+            <Number>+971 4 301 7777</Number>
+            <Street>Jumeirah Beach Road</Street>
+            <City>Dubai</City>
+            <State>Dubai</State>
+            <Zip>74147</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 4: The Ritz Paris -->
+    <Hotel _Rating="5.0">
+        <Name>The Ritz Paris</Name>
+        <Phone>+33 (0) 1 43 16 30 30</Phone>
+        <Address _NearestAirport="Paris-Charles de Gaulle Airport (CDG)">
+            <Number>15</Number>
+            <Street>Place Vendôme</Street>
+            <City>Paris</City>
+            <State>Paris</State>
+            <Zip>75001</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 5: Singita Lebombo Lodge -->
+    <Hotel _Rating="5.0">
+        <Name>Singita Lebombo Lodge</Name>
+        <Phone>+27 (0) 21 683 3424</Phone>
+        <Address> <!-- No _NearestAirport to satisfy optional attribute requirement -->
+            <Number>+27 21 683 3424</Number>
+            <Street>Kruger National Park</Street>
+            <City>Kruger</City>
+            <State>Mpumalanga</State>
+            <Zip>1350</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 6: Fogo Island Inn -->
+    <Hotel _Rating="5.0">
+        <Name>Fogo Island Inn</Name>
+        <Phone>+1-855-268-9277</Phone>
+        <Phone>+1-709-658-7260</Phone>
+        <Phone>+1 709 658 3444</Phone>
+        <Address _NearestAirport="Gander International Airport (YQX)">
+            <Number>210</Number>
+            <Street>Main Road</Street>
+            <City>Joe Batt's Arm</City>
+            <State>Newfoundland</State>
+            <Zip>A0G 2XO</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 7: Hotel Kakslauttanen Arctic Resort -->
+    <Hotel _Rating="4.0">
+        <Name>Hotel Kakslauttanen Arctic Resort</Name>
+        <Phone>+358 16 667100</Phone>
+        <Phone>+358 400 270057</Phone>
+        <Address _NearestAirport="Ivalo Airport (IVL)">
+            <Number>Kiilopääntie 9</Number>
+            <Street>N/A</Street>
+            <City>Saariselkä</City>
+            <State>N/A</State>
+            <Zip>99830</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 8: Explora Patagonia -->
+    <Hotel> <!-- No _Rating to satisfy optional attribute requirement -->
+        <Name>Explora Patagonia</Name>
+        <Phone>+56 2 2395 2800</Phone>
+        <Phone>+1 (800) 8389120</Phone>
+        <Phone>08000869054</Phone>
+        <Phone>08008783158</Phone>
+        <Phone>+54 11 5199 0564</Phone>
+        <Address _NearestAirport="Teniente Julio Gallardo Airport (PNT)">
+            <Number>N/A</Number>
+            <Street>Torres del Paine National Park</Street>
+            <City>N/A</City>
+            <State>Patagonia</State>
+            <Zip>N/A</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 9: The Datai Langkawi -->
+    <Hotel _Rating="5.0">
+        <Name>The Datai Langkawi</Name>
+        <Phone>+60 4-950-0500</Phone>
+        <Phone>800-601-1020</Phone>
+        <Address> <!-- No _NearestAirport to satisfy optional attribute requirement -->
+            <Number>N/A</Number>
+            <Street>Jalan Teluk Datai</Street>
+            <City>Pulau Langkawi</City>
+            <State>Kedah</State>
+            <Zip>07000</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 10: Ashford Castle -->
+    <Hotel _Rating="5.0">
+        <Name>Ashford Castle</Name>
+        <Phone>+353 94 954 6003</Phone>
+        <Address _NearestAirport="Ireland West Airport Knock (NOC)">
+            <Number>N/A</Number>
+            <Street>Cong</Street>
+            <City>County Mayo</City>
+            <State>N/A</State>
+            <Zip>F31 CA4</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 11: Belmond Copacabana Palace -->
+    <Hotel _Rating="5.0">
+        <Name>Belmond Copacabana Palace</Name>
+        <Phone>+55 (21) 2548 7070</Phone>
+        <Phone>1 800 237 1236</Phone>
+        <Address> <!-- No _NearestAirport to satisfy optional attribute requirement -->
+            <Number>1702</Number>
+            <Street>Avenida Atlântica</Street>
+            <City>Rio de Janeiro</City>
+            <State>N/A</State>
+            <Zip>CEP 22021 001</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
