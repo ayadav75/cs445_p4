@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Hotels xmlns="https://ayadav75.github.io/cs445_p4"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://ayadav75.github.io/cs445_p4 https://ayadav75.github.io/cs445_p4/Hotels.xsd">
     <!-- Hotel 1: Example from Figure 1 -->
     <Hotel _Rating="4.2">
         <Name>Westin</Name>
